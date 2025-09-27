@@ -1,0 +1,22 @@
+
+name: flappy_bird
+description: A simple colorful Flappy Bird clone in Flutter without assets.
+publish_to: 'none' # remove if you want to publish
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
